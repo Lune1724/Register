@@ -1,0 +1,106 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: #f4f4f8;
+    padding: 10px 20px;
+}
+
+.navbar-logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #e63946; /* Color del logo */
+    margin-right: 20px;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.navbar-login a {
+    text-decoration: none;
+    color: #333;
+    margin-right: auto;
+}
+
+/* Register Form Styles */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #FFFFFF;
+}
+
+.register-box {
+    background-color: #EEEEEE;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.register-image {
+    margin-bottom: 20px;
+}
+
+.register-image img {
+    width: 50px; /* Ajusta el tamaño de la imagen */
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    background-color: #76C5E8;
+}
+
+button {
+    padding: 10px;
+    background-color: #12739C;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #025aa5;
+}
